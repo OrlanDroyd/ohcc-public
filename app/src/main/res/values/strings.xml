@@ -1,0 +1,315 @@
+<resources>
+    <!--LABEL-->
+    <string name="app_name">Centro Histórico Camagüey</string>
+    <string name="login_activity">Registrarse</string>
+    <string name="ohcc">Oficina de Orientación y Consulta</string>
+
+    <!--ESTADOS-->
+    <string name="estado1">Pendiente</string>
+    <string name="estado2">En progreso</string>
+    <string name="estado3">Finalizado</string>
+    <string name="estado4">Cancelado</string>
+
+    <!--TABS-->
+    <string name="tab1">Nosotros&#8230;</string>
+    <string name="tab2">Servicios</string>
+    <string name="tab3">Mapa</string>
+    <string name="tab_indice">Índice</string>
+    <string name="tab_biblioteca">Biblioteca</string>
+
+    <!--MENU-->
+    <string name="setting">Más…</string>
+    <string name="login">Login de usuario</string>
+    <string name="delete">Eliminar</string>
+    <string name="about">Acerca de</string>
+    <string name="help">Ayuda</string>
+    <string name="about_info">Versión 1.0</string>
+    <string name="about_info2">junio 2019</string>
+    <string name="help_info1">• Para relizar cualquier trámite usted debe estar conectado a una red (WiFi o Datos Móviles) con acceso al dominio (.cu)</string>
+    <string name="help_info2">• Para acceder o registrarse en el sistema usted debe hacer click en el botón de la parte superior derecha de la pantalla y llenar el formulario correctamente.</string>
+    <string name="export_pdf">Guardar como PDF</string>
+    <string name="home">Inicio</string>
+    <string name="services">Servicios</string>
+    <string name="glossary">Glosario</string>
+    <string name="books">Libros y Regulaciones</string>
+    <string name="faqs">Preguntas Frecuentes</string>
+    <string name="map">Mapa</string>
+    <string name="contact">Contacto</string>
+    <string name="gallery">Galería</string>
+    <string name="exit">Salir</string>
+    <string name="search">Buscar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="nueva">Nueva</string>
+    <!--MENU CIUDADANO-->
+    <string name="step_1">Consulta&#8230;</string>
+    <string name="step_2">Asesoría Técnica</string>
+    <string name="step_3">Consultar Acción Constructiva</string>
+    <string name="step_4">Regulación TCP</string>
+    <string name="step_5">Queja</string>
+    <string name="step_6">Sugerencia</string>
+    <!--MENU CIUDADANO-->
+    <string name="steps">Gestionar Trámites</string>
+    <string name="step_1_especialista">Consulta&#8230;</string>
+    <string name="step_2_especialista">Asesoría Técnica</string>
+    <string name="step_3_especialista">Consulta Acc. Constr.</string>
+    <string name="step_4_especialista">Regulación TCP</string>
+    <string name="step_5_especialista">Queja</string>
+    <string name="step_6_especialista">Sugerencia</string>
+    <!--MENU CIUDADANO-->
+    <string name="directivo">Directivo</string>
+    <string name="step_1_directivo">Reportes</string>
+    <string name="step_2_directivo">Especialistas</string>
+    <string name="step_3_directivo">Directivos</string>
+
+    <!--MENU-->
+    <string name="actualizar">Actualizar</string>
+
+    <!--DIALOG-->
+    <string name="dialog_delete_tile">ATENCIÓN:</string>
+    <string name="dialog_delete_msg">Desea eliminar a</string>
+    <string name="dialog_delete_account_msg">Desea eliminar su cuenta?</string>
+
+    <!--WELCOME-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">Saltar</string>
+    <string name="start">IR!</string>
+    <string name="slide_1_desc">Conoce quienes somos y los servicios que ofrecemos…</string>
+    <string name="slide_2_title">GACETAS OFICIALIES, REGULACIONES Y LEYES URBANÍSTICAS…</string>
+    <string name="slide_2_desc">Incluidas en una biblioteca con lo más relevante resaltado!</string>
+    <string name="slide_3_title">TRÁMITES EN LÍNEA!!!</string>
+    <string name="slide_3_desc">No más colas!!! \nHaz los trámites desde la comodidad de tu casa…</string>
+    <string name="slide_4_title">Y MUCHO MÁS!!!</string>
+    <string name="slide_4_desc">Mapa del Centro Histórico… Glosario… Galería… QUÉ ESPERAS!!!</string>
+
+    <!--INFO-->
+    <string name="img1">•Iglesia de la Soledad, ubicada en la Plaza de la Solidaridad.</string>
+    <string name="img2">•Iglesia Mayor, hoy Catedral Metropolitana de la arquidiócesis de Camagüey.</string>
+    <string name="info1">Oficina de Orientación y Consulta a la Población del Centro Histórico de la Ciudad de Camagüey, Cuba.</string>
+    <string name="info2">El Centro Histórico de la Ciudad de Camagüey fue declarado Monumento Nacional en el año 1980 y es considerado el más extenso del país, con una extensión aproximada de 300ha.</string>
+    <string name="info2_1">Su núcleo más antiguo es Patrimonio Cultural de la Humanidad desde el año 2008, atendiendo a su valor arquitectónico, ilustrativo de un período histórico significativo y por ser ejemplo excepcional de un hábitat humano tradicional, representativo de una cultura y de su interacción con el medio ambiente. Este reconocimiento nos compromete en la preservación y conservación de los valores identitarios.</string>
+    <string name="info3">La Oficina de Orientación y Consulta a la Población del Centro Histórico forma parte del sistema de la Oficina del Historiador de la Ciudad de Camagüey y fue creada para sensibilizar, capacitar y orientar a la población, garantizar la regulación, ordenamiento y sinergias en las acciones privadas y públicas, de manera que se lleven a cabo en correspondencia con el Plan de Manejo del Centro Histórico.</string>
+    <string name="info4">La oficina proveerá los siguientes servicios:</string>
+    <string name="info4_1">• Consultas para la realización de acciones constructivas.\n• Asesorías técnicas.\n• Proceso de tramitación de regulaciones urbanísticas para licencias de construcción como órgano de consulta del sistema de Planificación Física.\n• Orientaciones precisas de los procedimientos y tramitaciones a realizar con los diferentes organismos.\n• Atención a quejas y sugerencias de la población.\n• Información integral de todo lo relacionado con el Centro Histórico y de la zona Patrimonio de la Humanidad.\n• Capacitación a emprendedores estatales y privados.\n• Coordinación de capacitación a la población a través de las estructuras de la Asamblea Municipal con relación a temas de interés, de nuestra competencia y de otras entidades del territorio.</string>
+    <string name="horario">Horario</string>
+    <string name="informacion">Contacto</string>
+    <string name="address">Dirección</string>
+    <string name="dias_info">Lunes a Viernes\n8:00am – 12:00m\n1:00pm – 5:00pm</string>
+    <string name="phone">32241095</string>
+    <string name="email_info">ohcc@ohcc.cmg.cu</string>
+    <string name="address_info">San Fernando No. 107, entre Tío Perico y Castellanos.</string>
+    <string name="personal">Personal</string>
+
+    <string-array name="login_spinner">
+        <item>Persona Natural</item>
+        <item>Trabajador por Cuenta Propia</item>
+        <!--<item>Entidad Estatal</item>-->
+    </string-array>
+
+    <string-array name="solicitud_spinner">
+        <item>Pendientes (Mías)</item>
+        <item>En progreso (Mías)</item>
+        <item>Finalizadas (Mías)</item>
+        <item>Canceladas (Mías)</item>
+        <item>Todas (Mías)</item>
+        <item>Pendientes</item>
+        <item>En progreso</item>
+        <item>Finalizadas</item>
+        <item>Canceladas</item>
+        <item>Todas</item>
+    </string-array>
+
+    <!--LOGIN TABLA USUARIO AND CIUDADANO-->
+    <string name="login_information">¿No tienes una cuenta creada?\nRegístrate aquí</string>
+    <string name="login_nombre"> Nombre</string>
+    <string name="login_apellido1"> Primer Apellido</string>
+    <string name="login_apellido2"> Segundo Apellido</string>
+    <string name="login_nombre_usuario"> Nombre de usuario</string>
+    <string name="login_password"> Contraseña</string>
+    <string name="login_password_confirm"> Confirmar contraseña</string>
+    <string name="login_ci"> Carnet de identidad</string>
+    <string name="login_email"> e-mail</string>
+    <string name="login_dir_particular"> Dirección particular</string>
+    <string name="login_telef"> Teléfono</string>
+    <string name="login_lat">" Latitud"</string>
+    <string name="login_long">" Longitud"</string>
+    <string name="login_tipo_ciudadano"> Tipo:</string>
+    <string name="login_register">Listo</string>
+    <string name="login_login">Acceder</string>
+    <string name="my_account">Mi Cuenta</string>
+
+    <!--COUNT INFO-->
+    <string name="account_nombre">Nombre:</string>
+    <string name="account_apellido1">Primer apellido:</string>
+    <string name="account_apellido2">Segundo apellido:</string>
+    <string name="account_nombre_usuario">Nombre usuario:</string>
+    <string name="account_cargo">Cargo:</string>
+    <string name="account_categoria">Categoría:</string>
+    <string name="account_ci">CI:</string>
+    <string name="account_dir_part">Dirección Particular:</string>
+    <string name="account_telef">Teléfono:</string>
+    <string name="account_email">E-mail:</string>
+    <string name="account_tipo_ciudadano">Tipo:</string>
+    <string name="account_rol">Rol:</string>
+    <string name="account_logout">Cerrar sesión</string>
+
+    <!--LOGIN ESPECIALISTA-->
+    <string name="login_categoria_especialista"> Categoría</string>
+    <string name="enviar">Enviar</string>
+    <string name="categoria"> Categoría</string>
+
+    <!--DIRECTIVO-->
+    <string name="cargo"> Cargo</string>
+
+    <!--FORM SOLICITUD-->
+    <string name="descripcion">Descripción:</string>
+    <string name="breve_descripcion">Explique detalladamente las razones de su</string>
+
+
+    <!--VALIDATIONS-->
+    <string name="empty">Requerido*</string>
+    <string name="descripcion_requerida">Descripción requerida</string>
+    <string name="password_length">Contraseña muy corta</string>
+    <string name="ci_length">El CI es de 11 dígitos</string>
+    <string name="password_matched">Contraseñas diferentes</string>
+    <string name="email_valid">e-mail incorrecto</string>
+
+    <!--PROGRESS DIALOG-->
+    <string name="loading">Cargando…</string>
+    <string name="enviando">Enviando…</string>
+
+    <!--RESPONSE CODES-->
+    <!--UserLogin-->
+    <string name="code_200">OK</string>
+    <string name="code_202">Usuario o credenciales incorrectas</string>
+    <string name="code_203">Error al insertar los datos</string>
+    <string name="code_422">Oops… ah ocurrido un error</string>
+    <string name="code_4221">Oops… ah ocurrido un error de conexión</string>
+    <string name="code_400">Oops… ah ocurrido un error en la respuesta del servidor</string>
+    <!--UserRegistration-->
+    <string name="code_201">creado correctamente</string>
+    <string name="code_421">El nombre de usuario ya existe</string>
+    <string name="update">Editado correctamente</string>
+    <string name="eliminado">Eliminado correctamente</string>
+
+
+    <!-- TODO System -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="phone_invalido">Número de telef. incorrecto</string>
+    <string name="name_invalido">Nombre incorrecto</string>
+
+    <!--GALLERY Grados de Proteccion-->
+    <string-array name="image_title_grados_proteccion">
+        <!--grados_proteccion_001-->
+        <item>Conjunto de San Juan de Dios, con iglesia de una torre central y un claustro (antiguo hospital) en la actualidad Dirección Provincial de Patrimonio.</item>
+        <item>Iglesia de la Merced, de torre central y convento de un claustro, hoy Casa Diocesana.</item>
+        <item>Templo Bautista, ubicado en la calle Cisneros y Hermanos Agüero.</item>
+        <item>Iglesia Mayor, hoy Catedral Metropolitana de la arquidiócesis de Camagüey, situada a un lateral del Parque Ignacio Agramonte.</item>
+        <item>Iglesia de la Soledad, ubicada en la Plaza de la Solidaridad.</item>
+        <item>Iglesia del Sagrado Corazón de Jesús. Junto al colegio de las Escuelas Pías sustituyó al antiguo conjunto de iglesia-convento de San Francisco de Asís.</item>
+        <item>Centro de Cultura Comunitaria, edificio colonial de dos plantas. Calle Cisneros 258.</item>
+        <item>Asamblea Municipal del Poder Popular, inmueble colonial. Su fachada fue sustituida por otra de rasgos eclécticos y modernistas. Calle Cisneros 201.</item>
+        <item>Gran Hotel, edifico de cinco niveles que sobresale en el perfil urbano. Calle Maceo 67.</item>
+        <!--grados_proteccion_010-->
+        <item>Casa natal de Ignacio Agramonte, edificio colonial con entresuelo, tipología poco común en la ciudad. Calle Ignacio Agramonte 459.</item>
+        <item>Antigua Sociedad Santa Cecilia, conocida como La Popular, exponente del eclecticismo en Camagüey. Plaza de los Trabajadores.</item>
+        <item>Tienda El Encanto, inmueble perteneciente al movimiento moderno, considerado uno de los más representativos. Calle Maceo esquina a General Gómez.</item>
+        <item>Vivienda colonial. Una de las más antiguas conservada en el Centro Histórico. Calle San Fernando 2.</item>
+        <item>Viviendas coloniales del período representativo. Calle Ramón Pintó 105 y 107. Plaza San Juan de Dios.</item>
+        <item>Casa natal de la poetisa camagüeyana Gertrudis Gómez de Avellaneda. Pertenece al período neoclásico. Calle Avellaneda 67.</item>
+        <item>Casa natal de Carlos J. Finlay. Inmueble colonial que sufrió transformaciones eclécticas en su interior. Calle Hermanos Agüero 56-58.</item>
+        <item>El Colonial, edificación colonial donde funciona un complejo comercial-recreativo.</item>
+        <item>Edifico mixto La Gran Antilla. Plaza Maceo.</item>
+        <item>Tribunal Municipal. Edificio colonial con fachada ecléctica. Calle Cisneros 251.</item>
+        <!--grados_proteccion_020-->
+        <item>Inmueble ecléctico. Calle Ignacio Agramonte 303.</item>
+        <item>Subdirección ténica de la Dirección Provincial de Justicia y la fl oristería Dayamí. Construcción ecléctica que posee doble arco de herradura en el interior. Calle Cisneros 302 y 304.</item>
+        <item>Edificio colonial mixto. En la planta baja está ubicado el Bodegón Don Cayetano. Calle República.</item>
+        <item>Correo Central. Calle Ignacio Agramonte 461.</item>
+        <item>Galería Larios. Calle Independencia esquina a General Gómez.</item>
+        <item>Edifico colonial de uso mixto, con fachada art decó. En la planta baja se encuentra la farmacia de medicina natural. Calle Martí 68.</item>
+        <item>Galería de Arte Alejo Carpentier, casa colonial del siglo XIX. Calle Luaces 153.</item>
+        <item>Cine Casablanca, de estilo art decó. Calle Ignacio Agramonte 410.</item>
+        <item>Hostal Camino de Hierro.</item>
+        <item>Cafetería Oasis. Calle Independencia esquina a General Gómez.</item>
+        <!--grados_proteccion_030-->
+        <item>Banco Fincimex. Calle General Gómez.</item>
+    </string-array>
+
+    <!--GALLERY ids-->
+    <string-array name="image_grados_proteccion">
+        <item>Grado de protección 1. Edificios religiosos</item>
+        <item>Grado de protección 1. Edificios religiosos</item>
+        <item>Grado de protección 1. Edificios religiosos</item>
+        <item>Grado de protección 1. Edificios religiosos</item>
+        <item>Grado de protección 1. Edificios religiosos</item>
+        <item>Grado de protección 1. Edificios religiosos</item>
+        <item>Grado de protección 1. Edificios excepcionales</item>
+        <item>Grado de protección 1. Edificios excepcionales</item>
+        <item>Grado de protección 1. Edificios excepcionales</item>
+        <item>Grado de protección 1. Edificios excepcionales</item>
+        <item>Grado de protección 1. Edificios excepcionales</item>
+        <item>Grado de protección 1. Edificios excepcionales</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 1. Edificios relevantes</item>
+        <item>Grado de protección 2</item>
+        <item>Grado de protección 2</item>
+        <item>Grado de protección 2</item>
+        <item>Grado de protección 2</item>
+        <item>Grado de protección 2</item>
+        <item>Grado de protección 2</item>
+        <item>Grado de protección 3</item>
+        <item>Grado de protección 3</item>
+        <item>Grado de protección 3</item>
+    </string-array>
+
+    <!--GALLERY ids-->
+    <string-array name="image_ids_grados_proteccion">
+        <item>@drawable/grados_proteccion_001</item>
+        <item>@drawable/grados_proteccion_002</item>
+        <item>@drawable/grados_proteccion_003</item>
+        <item>@drawable/grados_proteccion_004</item>
+        <item>@drawable/grados_proteccion_005</item>
+        <item>@drawable/grados_proteccion_006</item>
+        <item>@drawable/grados_proteccion_007</item>
+        <item>@drawable/grados_proteccion_008</item>
+        <item>@drawable/grados_proteccion_009</item>
+        <item>@drawable/grados_proteccion_010</item>
+        <item>@drawable/grados_proteccion_011</item>
+        <item>@drawable/grados_proteccion_012</item>
+        <item>@drawable/grados_proteccion_013</item>
+        <item>@drawable/grados_proteccion_014</item>
+        <item>@drawable/grados_proteccion_015</item>
+        <item>@drawable/grados_proteccion_016</item>
+        <item>@drawable/grados_proteccion_017</item>
+        <item>@drawable/grados_proteccion_018</item>
+        <item>@drawable/grados_proteccion_019</item>
+        <item>@drawable/grados_proteccion_020</item>
+        <item>@drawable/grados_proteccion_021</item>
+        <item>@drawable/grados_proteccion_022</item>
+        <item>@drawable/grados_proteccion_023</item>
+        <item>@drawable/grados_proteccion_024</item>
+        <item>@drawable/grados_proteccion_025</item>
+        <item>@drawable/grados_proteccion_026</item>
+        <item>@drawable/grados_proteccion_027</item>
+        <item>@drawable/grados_proteccion_028</item>
+        <item>@drawable/grados_proteccion_029</item>
+        <item>@drawable/grados_proteccion_030</item>
+    </string-array>
+
+</resources>

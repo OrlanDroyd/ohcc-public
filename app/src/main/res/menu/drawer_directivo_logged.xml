@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_glossary"
+            android:icon="@drawable/ic_menu_glossary"
+            android:title="@string/glossary" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_menu_books"
+            android:title="@string/books" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_contact"
+            android:title="@string/contact" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/gallery" />
+    </group>
+
+    <item android:title="@string/directivo">
+        <menu>
+            <item
+                android:id="@+id/nav_step1_directivo"
+                android:icon="@drawable/ic_pdf_24dp"
+                android:title="@string/step_1_directivo" />
+            <item
+                android:id="@+id/nav_step2_directivo"
+                android:icon="@drawable/ic_gavel_white_24dp"
+                android:title="@string/step_2_directivo" />
+            <item
+                android:id="@+id/nav_step3_directivo"
+                android:icon="@drawable/ic_event_seat_white_24dp"
+                android:title="@string/step_3_directivo" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/setting">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_help_withe_24dp"
+                android:title="@string/help" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>

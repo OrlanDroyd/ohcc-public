@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gmail.orlandroyd.ohcc">
+
+    <uses-sdk tools:overrideLibrary="com.shashank.sony.fancytoastlib" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".activity.DetailsSolicitudByCiudadanoActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="screenSize|orientation"
+            android:label="@string/title_activity_navigation_drawer"
+            android:launchMode="singleTop"
+            android:theme="@style/DrawerTheme" />
+        <activity
+            android:name=".activity.AuthenticationActivity"
+            android:configChanges="screenSize|orientation"
+            android:label="@string/login_activity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:configChanges="screenSize|orientation" />
+        <activity
+            android:name=".activity.PdfFullScreenActivity"
+            android:configChanges="screenSize|orientation" />
+        <activity
+            android:name=".activity.GestionarSolicitudByEspecialistaActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.GestionarSolicitudByCiudadanoActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.GestionarDirectivoActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.GestionarEspecialistaActivity"
+            android:parentActivityName=".activity.MainActivity" />
+    </application>
+
+</manifest>

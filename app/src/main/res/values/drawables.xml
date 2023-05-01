@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_home" type="drawable">@drawable/ic_bookmark_white_24dp</item>
+    <item name="ic_menu_glossary" type="drawable">@drawable/ic_search_white_24dp</item>
+    <item name="ic_menu_books" type="drawable">@drawable/ic_library_books_white_24dp</item>
+    <item name="ic_menu_faqs" type="drawable">@drawable/ic_help_withe_24dp</item>
+    <item name="ic_menu_map" type="drawable">@drawable/ic_map_white_24dp</item>
+    <item name="ic_menu_contact" type="drawable">@drawable/ic_contacts_white_24dp</item>
+    <item name="ic_menu_gallery" type="drawable">@drawable/ic_photo_library_white_24dp</item>
+    <item name="ic_menu_setting" type="drawable">@drawable/ic_settings_white_24dp</item>
+    <item name="ic_menu_about" type="drawable">@drawable/ic_info_outline_white_24dp</item>
+    <item name="ic_menu_exit" type="drawable">@drawable/ic_exit_to_app_white_24dp</item>
+</resources>

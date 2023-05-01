@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <!--CONTACTO-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_backgroundDark"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent2"
+                    android:fontFamily="serif"
+                    android:padding="8dp"
+                    android:text="@string/informacion"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/line" />
+
+                <include layout="@layout/space" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_local_phone_black_24dp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:autoLink="phone"
+                        android:fontFamily="serif"
+                        android:text="@string/phone"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <include layout="@layout/space" />
+
+                <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<androidx.appcompat.widget.AppCompatImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/ic_email_black_24dp" />-->
+
+                <!--<androidx.appcompat.widget.AppCompatTextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:autoLink="email"-->
+                <!--android:fontFamily="serif"-->
+                <!--android:text="@string/email_info"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<include layout="@layout/space" />-->
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <!--DIRECCION-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_backgroundDark"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent2"
+                    android:fontFamily="serif"
+                    android:padding="8dp"
+                    android:text="@string/address"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/line" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="10dp"
+                    android:text="@string/address_info"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:background="@color/colorPrimaryDark">-->
+
+                <!--<androidx.appcompat.widget.AppCompatImageView-->
+                <!--android:id="@+id/tileView"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="@drawable/test"-->
+                <!--android:padding="10dp" />-->
+
+                <!--</FrameLayout>-->
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <!--HORARIO-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_backgroundDark"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent2"
+                    android:fontFamily="serif"
+                    android:padding="8dp"
+                    android:text="@string/horario"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/line" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="10dp"
+                    android:text="@string/dias_info"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <!--PERSONAL-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="@color/colorPrimaryDark"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:orientation="vertical">-->
+
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_margin="2dp"-->
+    <!--android:background="@color/colorPrimaryDark">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/card_backgroundDark"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/colorAccent2"-->
+    <!--android:fontFamily="serif"-->
+    <!--android:padding="8dp"-->
+    <!--android:text="@string/personal"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<include layout="@layout/line" />-->
+
+    <!--<include layout="@layout/space" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<androidx.appcompat.widget.AppCompatImageView-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="@drawable/circle_background_1"-->
+    <!--app:srcCompat="@drawable/ic_account_circle_white_24dp" />-->
+
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:fontFamily="serif"-->
+    <!--android:text="Cargo: "-->
+    <!--android:textColor="@android:color/black" />-->
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:fontFamily="serif"-->
+    <!--android:text="Lorem Ipsum Dolor"-->
+    <!--android:textColor="@android:color/black" />-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--<include layout="@layout/space" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<androidx.appcompat.widget.AppCompatImageView-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="@drawable/circle_background_1"-->
+    <!--app:srcCompat="@drawable/ic_account_circle_white_24dp" />-->
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:fontFamily="serif"-->
+    <!--android:text="Cargo: "-->
+    <!--android:textColor="@android:color/black" />-->
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:fontFamily="serif"-->
+    <!--android:text="Lorem Ipsum Dolor"-->
+    <!--android:textColor="@android:color/black" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<include layout="@layout/space" />-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<androidx.appcompat.widget.AppCompatImageView-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="@drawable/circle_background_1"-->
+    <!--app:srcCompat="@drawable/ic_account_circle_white_24dp" />-->
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:fontFamily="serif"-->
+    <!--android:text="Cargo: "-->
+    <!--android:textColor="@android:color/black" />-->
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:fontFamily="serif"-->
+    <!--android:text="Lorem Ipsum Dolor"-->
+    <!--android:textColor="@android:color/black" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<include layout="@layout/space" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--</FrameLayout>-->
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

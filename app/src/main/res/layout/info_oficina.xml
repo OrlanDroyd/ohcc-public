@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pew="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_backgroundDark"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent2"
+                    android:fontFamily="serif"
+                    android:padding="8dp"
+                    android:text="@string/info1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:padding="2dp">
+
+                        <com.fmsirvent.ParallaxEverywhere.PEWImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/grados_proteccion_005"
+                            pew:reverse="reverseY" />
+
+                    </FrameLayout>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:gravity="bottom|left"
+                        android:lineSpacingExtra="3sp"
+                        android:text="@string/img1"
+                        android:textColor="@color/img_info"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/info2"
+                    android:textColor="@android:color/black" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/info2_1"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_backgroundDark"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent2"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="3sp"
+                    android:padding="8dp"
+                    android:text="@string/info4"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/line" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/info4_1"
+                    android:textColor="@android:color/black" />
+
+                <include layout="@layout/space"></include>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:gravity="bottom|right"
+                        android:lineSpacingExtra="3sp"
+                        android:text="@string/img2"
+                        android:textColor="@color/img_info"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:padding="2dp">
+
+                        <com.fmsirvent.ParallaxEverywhere.PEWImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/grados_proteccion_004"
+                            pew:reverse="reverseY" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/info3"
+                    android:textColor="@android:color/black" />
+
+
+                <include layout="@layout/space"></include>
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

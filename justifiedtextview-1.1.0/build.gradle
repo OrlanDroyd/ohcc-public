@@ -1,0 +1,4 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('justifiedtextview-1.1.0.aar'))
+dependencies {
+}

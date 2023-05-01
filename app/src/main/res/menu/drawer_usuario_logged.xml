@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_glossary"
+            android:icon="@drawable/ic_menu_glossary"
+            android:title="@string/glossary" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_menu_books"
+            android:title="@string/books" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_contact"
+            android:title="@string/contact" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/gallery" />
+    </group>
+
+    <item android:title="@string/services">
+        <menu>
+            <item
+                android:id="@+id/nav_step1"
+                android:icon="@drawable/ic_consulta_general_white_24dp"
+                android:title="@string/step_1" />
+            <item
+                android:id="@+id/nav_step2"
+                android:icon="@drawable/ic_asesoria_white_24dp"
+                android:title="@string/step_2" />
+            <item
+                android:id="@+id/nav_step3"
+                android:icon="@drawable/ic_acc_construct_white_24dp"
+                android:title="@string/step_3" />
+            <item
+                android:id="@+id/nav_step4"
+                android:icon="@drawable/ic_tcp_white_24dp"
+                android:title="@string/step_4" />
+            <item
+                android:id="@+id/nav_step5"
+                android:icon="@drawable/ic_thumb_down_white_24dp"
+                android:title="@string/step_5" />
+            <item
+                android:id="@+id/nav_step6"
+                android:icon="@drawable/ic_lightbulb_outline_white_24dp"
+                android:title="@string/step_6" />
+        </menu>
+    </item>
+
+    <item android:title="@string/setting">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_help_withe_24dp"
+                android:title="@string/help" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>
